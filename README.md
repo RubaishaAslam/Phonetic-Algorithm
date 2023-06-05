@@ -1,15 +1,14 @@
 # Phonetic-Algorithm
 second university python assignment in first year of cs
+
 CS 1026 – Assignment 2
+
 Overview
+
 Write a program using lists and functions to compare names using a phonetic algorithm.
-Reminders
-• Your code must be done individually.
-• Your code will be graded in part by an automated system.
-• Your code may be compared to other submissions using computer software.
-• You can submit your code up to 48 hours late, with a deduction of 0.5% per hour (or part of an
-hour) that the assignment is late.
+
 Background
+
 People can have very similar sounding names that are spelled differently. When hearing a name without
 knowing the spelling, someone may spell the name in several different ways. We would like a tool that
 can roughly group similar sounding names together to allow us to search for names when an exact
@@ -71,7 +70,9 @@ digit, and D = ‘d5632’.
 7. We drop digits from the end of D to get a string of length 4, so the Soundex encoding is ‘d563’.
 In the same way, the name ‘Schmidt’ would be converted to ‘s530’:
 schmidt –> 2205033 –> 20503 –> 253 –> s53 –> s530
+
 Program
+
 You should write a complete python program that asks for a list of names and then shows the pairs of
 names in the list that have the same Soundex encoding.
 1. Prompt for the user for a collection of names. Store the names in a list.
@@ -103,7 +104,9 @@ these lines of output in a list.
 5. After all the lines of output have been constructed, print all of the output in alphabetical order,
 sorted by Name1. That is, in the final output, the first line should start with the name that
 comes first in alphabetical order (hint: use sort(), then print.)
+
 Functions
+
 You are required to break your code into functions. The following functions are required:
 1. A function to read the input from the user. The function should have no parameters and return
 a list of strings (the names).
@@ -120,7 +123,9 @@ string as a parameter (the name) and return the final Soundex encoding as a stri
 6. A main function.
 You can give the functions (except main) any name that is suitable. You may add additional functions
 beyond this if you like.
+
 Code Requirements
+
 Your code must satisfy the following requirements in addition to producing correct output.
 1. Your code must be documented appropriately. Do not document every line of code, but major
 portions of your code must be commented.
@@ -132,19 +137,7 @@ be used based on the requirements above. You should also use a main() method.
 standards for more details.
 5. You should review the programming standards document for information on commenting,
 variable naming, documentation of functions, and other issues.
-Submission Details
-• You must submit your code to gradescope using the instructions on ow;.
-• You must name your code Assign2.py.
-• You must follow the format of the output shown in the example below, including prompts.
-Assignment Marking
-• Your code will be marked by an automated tool. The testing program assumes that
-o The code is saved as a file called Assign2.py
-o You are using a python3 version (recommended python3.9 or higher). If you use
-python2, you will likely lose marks.
-If your code has to be marked manually due to failure to follow these instructions, you will
-receive a deduction from your final mark.
-• Your code will be evaluated by the Teaching Assistants for the code requirements described
-above.
+
 Example Execution
 The following sample run of the program is provided for your reference only. It is not a complete
 example of all possible cases. You should design your own test cases to ensure your code is working. The
